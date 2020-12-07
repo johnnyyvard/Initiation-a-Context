@@ -14,6 +14,7 @@ const initialData = {
 };
 
 const TaskData = React.createContext();
+export const TaskConsumer = TaskData.Consumer;
 
 class App extends React.Component {
     render() {
